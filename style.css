@@ -1,0 +1,194 @@
+/* すべて共通 */
+html, body {
+	font-size: 16px;
+	font-family: sans-serif;
+	color: #393939;
+	background: #efefef;
+}
+body, div, p, h1, h2, h3, h4, ul, figure {
+	margin: 0;
+	padding: 0;
+}
+p, td, th, li {
+	line-height: 1.8;
+}
+img {
+	width: 40%;
+	height: auto;
+}
+a {
+	color: #709a00;
+}
+a:hover {
+	color: #95cd00;
+}
+a:active {
+	color: #4b6700;
+}
+
+/* header */
+header {
+	background: #ffffff;
+}
+.headersecond {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-logo {
+	padding: 30px 0;
+	width: 1300px;
+	height: 50px;
+}
+body{
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+/* ヘッダー */
+header{
+    width: 100%;
+    padding: 10px 0;
+}
+.header_wrapper{
+    max-width: 1320px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_wrapper h1{
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+.header_wrapper h1 a{
+    display: block;
+    color: #333;
+    text-decoration: none;
+    font-size: 34px;
+}
+.header_wrapper h1 span{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-left: 10px;
+}
+/* ナビゲーション */
+.gnav{
+    width: 100%;
+    background-color: #333;
+}
+.gnav_wrapper{
+    max-width: 980px;
+    margin: auto;
+    display: flex;
+}
+.gnav_wrapper li{
+    border-left: #888 1px solid;
+    text-align: center;
+    width: calc(100%/2);
+    transition: all  0.3s ease;
+}
+.gnav_wrapper li:last-child{
+    border-right: #888 1px solid;
+}
+.gnav_wrapper li:hover{
+    background-color: #888;
+}
+.gnav_wrapper li a{
+    display: block;
+    padding: 1.3em 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* サイバーセキュリティ科 , ITスペシャリスト科*/
+img.example1 {
+  width: 1400px;
+  height: 250px;
+}
+
+.example {
+  position: relative;
+  }
+
+.example p {
+  position: absolute;
+  color: white;
+  font-family :Quicksand, sans-serif;
+  top: 20px;
+  left: 30px;
+  font-size: 30px;
+  }
+
+.example img {
+  width: 100%;
+  }
+
+h2 { 
+ margin-left: 0.5%;
+ padding-left: 0.5%;
+}
+
+.important { 
+  font-weight: normal;
+  color: #4169e1;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-left: 1%;
+  padding-left: 1%;
+}
+.explanation {
+  font-family: sans-serif;
+  margin-left: 2%;
+  padding-left: 2%;
+}
+.box1{
+  background: #fff;
+}
+.box2{
+  background: #fff;
+}
+.wrap{
+  height:100px;
+}
+.box{
+  display: inline-block;
+  text-align: center;
+  width: 45%;
+  height: 200px;
+  margin-left: 1%;
+  padding-left: 1%;
+  margin-top: 1%;
+  padding-top: 1%;
+  margin-bottom: 1%;
+  padding-bottom: 1%;
+  border: 3px solid #ff4500;
+  line-height: 1px;
+}
+img.example2 {
+  width: 40%;
+  height: 30%;
+  padding-left: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+div.gazo-box {
+ padding-left: 20px;
+ padding-top: 1%;
+}
+/* HOME */
+
+.sns {
+  text-align: center;
+  margin: 20px 20px 20px 20px;
+}
+.frame {
+  float: left;
+  padding: 8px;
+  width: 300px;
+  height: 250px;
+}
+
