@@ -53,13 +53,22 @@
 </head>
 
 <body>
-    <form action="">
+    <form action="#" method="POST" id="contact">
         <p>
-            <span class="mandatory">*必須</span><label for="name-field">お名前</label>
-            <input type="text" name="name" id="name-field" required>
+            <label for="name-field">お名前</label><br>
+            <input type="text" name="name" id="name-field">
         </p>
-        <p><label for="email-field">メールアドレス</label></p><br>
-        <input <input type="submit">
+        <p>
+            <label for="email-field">メールアドレス</label><br>
+            <input type="email" name="email" id="email-field">
+        </p>
+        <p>
+            <label for="comment">お問い合わせ</label><br>
+            <textarea name="comment" id="comment"></textarea>
+        </p>
+        <p class="submit-p"><input type="submit" value="送信する" id="submit" name="submit"></p>
+
+
     </form>
 
 </body>
